@@ -55,6 +55,8 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 <br/>
 
 Com isso a aplicação web ira abrir em seu navegador 
+  
+<br/>
 
 # 🖼️Fotos
 
