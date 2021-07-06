@@ -28,8 +28,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 # 💻 Projeto
 Desenvolvida uma API REST completa de gerenciamento de refeições e informações calóricas delas, junto com os dados do usuário. Chamada de DevFitness.
 
-<br/>
-
 ## Com as Funcionalidades:
 
 * Cadastro, Listagem, Detalhes, Atualização e Remoção de uma Refeição
