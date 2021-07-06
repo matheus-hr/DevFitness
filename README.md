@@ -1,4 +1,4 @@
-# jornada .Net Direto ao Ponto
+# jornada .Net Direto ao Ponto - DevFitness
 
 ![project_language](https://img.shields.io/badge/language-C%23-green)
 ![server_backend](https://img.shields.io/badge/backend%2Fserver-.NET%20Core-blue)
