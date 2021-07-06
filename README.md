@@ -4,7 +4,7 @@
 ![server_backend](https://img.shields.io/badge/backend%2Fserver-.NET%20Core-blue)
 ![web](https://img.shields.io/badge/web-API-blueviolet)
 
-Bootcamp realizado pelo Luiz Felipe, onde ele demonstra desde o básico até o avançado utilizando .Net 5 e Entity Framework
+Bootcamp realizado pelo Luiz Felipe, onde ele demonstra desde o básico até o avançado utilizando .Net 5 e Entity Framework.
 
 ![image](https://user-images.githubusercontent.com/78974230/124639784-f136e500-de62-11eb-926a-2feb6abf4eb4.png)
 
@@ -38,13 +38,13 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 
 # ⚙️ Como utilizar este projeto?
 1. Faça o download do repositorio
-2. Utilize o Visual studio 2019 ou Visual studio code.
+2. Utilize o Visual studio 2019 ou Visual studio code
 
 ## Visual studio 2019
 1. Abra o projeto com o Visual studio 2019
 2. Altere a string de conexão no arquivo appsettings.json
 3. Execute o comando <b>dotnet ef database update<b/>
-4. Clique o botão de "play" ou aperte o botão F5 no teclado.
+4. Clique o botão de "play" ou aperte o botão F5 no teclado
 
 ## Visual studio Code
 1. Instale a extensão C# no Visual studio Code
@@ -54,7 +54,7 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 
 <br/>
 
-Com isso a aplicação web ira abrir em seu navegador 
+Com isso a aplicação web ira abrir em seu navegador.
   
 <br/>
 
