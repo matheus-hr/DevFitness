@@ -45,13 +45,13 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 ## Visual studio 2019
 1. Abra o projeto com o Visual studio 2019
 2. Altere a string de conexão no arquivo appsettings.json
-3. Execute o comando <b>dotnet ef database update<b/>
+3. Execute o comando <b>dotnet ef database update</b>
 4. Clique o botão de "play" ou aperte o botão F5 no teclado
 
 ## Visual studio Code
 1. Instale a extensão C# no Visual studio Code
 2. Altere a string de conexão no arquivo appsettings.json
-3. Execute o comando <b>dotnet ef database update<b/>
+3. Execute o comando <b>dotnet ef database update</b>
 4. Execute o comando <b>dotnet run</b>
 
 <br/>
