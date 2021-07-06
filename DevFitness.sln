@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFitness.API", "DevFitness.API\DevFitness.API.csproj", "{221659E0-F21E-4E68-8721-4031B9A9770B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{221659E0-F21E-4E68-8721-4031B9A9770B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221659E0-F21E-4E68-8721-4031B9A9770B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221659E0-F21E-4E68-8721-4031B9A9770B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221659E0-F21E-4E68-8721-4031B9A9770B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34FE5CB8-F944-4519-BFA9-1C9DE9430FC0}
+	EndGlobalSection
+EndGlobal
