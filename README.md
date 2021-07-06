@@ -40,8 +40,8 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 1. Faça o download do repositorio
 2. Utilize o Visual studio 2019 ou Visual studio code
  
-Baixe a última versão do .Net 5
-https://dotnet.microsoft.com/download/dotnet/5.0
+ Baixe a última versão do .Net 5: <br/>
+ https://dotnet.microsoft.com/download/dotnet/5.0
 
 ## Visual studio 2019
 1. Abra o projeto com o Visual studio 2019
