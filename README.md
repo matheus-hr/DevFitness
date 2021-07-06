@@ -37,7 +37,7 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 <br/>
 
 # ⚙️ Como utilizar este projeto?
-1. Faça o download do repositorio
+1. Faça o download do repositório
 2. Utilize o Visual studio 2019 ou Visual studio code
 3. Baixe a última versão do .Net 5: <br/>
    https://dotnet.microsoft.com/download/dotnet/5.0
