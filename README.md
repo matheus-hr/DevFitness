@@ -32,7 +32,7 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 
 * Cadastro, Listagem, Detalhes, Atualização e Remoção de uma Refeição
 * Cadastro e atualização de Usuário
-* Geração de dados para relátorio de balanço energético
+* Geração de dados para relatório de balanço energético
 
 <br/>
 
