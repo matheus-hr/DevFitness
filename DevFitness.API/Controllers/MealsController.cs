@@ -68,6 +68,7 @@ namespace DevFitness.API.Controllers
         public IActionResult Post(int userId, [FromBody] CreateMealInputModel inputModel)
         {
             var meal = _mapper.Map<Meal>(inputModel);
+            meal.SetUserId(userId);
 
             _dbContext.Meals.Add(meal);
             _dbContext.SaveChanges();

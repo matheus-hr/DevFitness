@@ -67,12 +67,14 @@
             </summary>
             <remarks>
                 Requisição de exemplo:
+                <pre>
                 {
                     "fullName": "Luiz Dev",
                     "height": 1.72,
                     "weight": 70,
                     "birthDate": "1992-01-01 00:00:00"
                 }
+                </pre>
             </remarks>
             <param name="inputModel"> - Objeto com Dados para Cadastro de um Usuário</param>
             <returns> Objeto Recém-criado</returns>

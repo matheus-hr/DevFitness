@@ -48,12 +48,14 @@ namespace DevFitness.API.Controllers
         /// </summary>
         /// <remarks>
         ///     Requisição de exemplo:
+        ///     <pre>
         ///     {
         ///         "fullName": "Luiz Dev",
         ///         "height": 1.72,
         ///         "weight": 70,
         ///         "birthDate": "1992-01-01 00:00:00"
         ///     }
+        ///     </pre>
         /// </remarks>
         /// <param name="inputModel"> - Objeto com Dados para Cadastro de um Usuário</param>
         /// <returns> Objeto Recém-criado</returns>
@@ -69,7 +71,7 @@ namespace DevFitness.API.Controllers
             _dbContext.Users.Add(user);
             _dbContext.SaveChanges();
 
-            return CreatedAtAction(nameof(Get), new { id = 10 }, inputModel);
+            return CreatedAtAction(nameof(Get), new { id = user.Id }, inputModel);
         }
 
         /// <summary>
