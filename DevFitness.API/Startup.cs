@@ -28,16 +28,15 @@ namespace DevFitness.API
             services.AddAutoMapper(typeof(UserProfile)); //Serve para criar o automapper, e colocar o IMappper nos contrutores das Controllers
 
             //Configura a string de Conexão
-            string connectionStringConfig = "DevFitnessCsSqlite";
-            string connectionString = Configuration.GetConnectionString(connectionStringConfig);
+            string connectionString = Configuration.GetConnectionString("DevFitnessCs");
 
-            if (connectionStringConfig.Contains("SqlServer"))
-            {
-                services.AddDbContext<DevFitnessDbContext>(options => options.UseSqlServer(connectionString));
-            }
-            else if(connectionStringConfig.Contains("Sqlite"))
+            if (connectionString.Contains("Data Source"))
             {
                 services.AddDbContext<DevFitnessDbContext>(options => options.UseSqlite(connectionString));
+            }
+            else
+            {
+                services.AddDbContext<DevFitnessDbContext>(options => options.UseSqlServer(connectionString));
             }
 
             services.AddControllers();

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevFitness.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevFitness.API.Controllers.MealsController.GetAll(System.Int32)">
+            <summary>
+                Retorna Todas as Alimentações de um Usuário
+            </summary>
+            <param name="userId"> - Identificador do Usuário.</param>
+            <returns> Objeto de Detalhes das Alimentações de um Usuário</returns>
+            <response code="200">Sucesso</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.MealsController.Get(System.Int32,System.Int32)">
+            <summary>
+                Retorna uma Alimentação Especifica de um Usuário
+            </summary>
+            <param name="userId"> - Identificador do Usuário</param>
+            <param name="mealId"> - Identificador da Alimentação</param>
+            <returns> Objeto com os Detalhes de uma Alimentação Especifica de um Usuário</returns>
+            <response code="200">Sucesso</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.MealsController.Post(System.Int32,DevFitness.API.Models.InputModels.CreateMealInputModel)">
+            <summary>
+                Cadastra uma Alimentação para um Usuário
+            </summary>
+            <param name="userId"> - Identificador do Usuario</param>
+            <param name="inputModel"> - Objeto com dados para Cadastro de uma Alimentação</param>
+            <returns> Objeto Recém-criado</returns>
+            <response code="201">Objeto Criado com Sucesso</response>
+            <response code="400">Dados Inválidos</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.MealsController.Put(System.Int32,System.Int32,DevFitness.API.Models.InputModels.UpdateMealInputModel)">
+            <summary>
+                Atualiza Dados de uma Alimentação de um Usuario
+            </summary>
+            <param name="userId"> - Identificador de um Usuario</param>
+            <param name="mealId"> - Identificador de uma Alimentação</param>
+            <param name="inputModel"> - Objeto com dados para Atualização de uma Alimentação</param>
+            <returns> Objeto Atualizado</returns>
+            <response code="204">Objeto Atualizado com Sucesso</response>
+            <response code="404">Alimentação e/ou Usuário não encontrado(s)</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.MealsController.Delete(System.Int32,System.Int32)">
+            <summary>
+                Remove uma Alimentação de um Usuário
+            </summary>
+            <param name="userId"> - Identificador de um Usuário</param>
+            <param name="mealId"> - Identificador de uma Alimentação</param>
+            <returns> Objeto Removido</returns>
+            <response code="204">Alimentação Removida com Sucesso</response>
+            <response code="404">Alimentação e/ou Usuário não encontrado(s)</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+                Retornar Detalhes de Usuário
+            </summary>
+            <param name="id"> - Identificador de Usuário</param>
+            <returns> Objeto de Detalhes de Usuário</returns>
+            <response code="200">Usuário Encontrado com Sucesso</response>
+            <response code="404">Usuário não Encontrado</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.UsersController.Post(DevFitness.API.Models.InputModels.CreateUserInputModel)">
+            <summary>
+                Cadastrar um Usúario
+            </summary>
+            <remarks>
+                Requisição de exemplo:
+                {
+                    "fullName": "Luiz Dev",
+                    "height": 1.72,
+                    "weight": 70,
+                    "birthDate": "1992-01-01 00:00:00"
+                }
+            </remarks>
+            <param name="inputModel"> - Objeto com Dados para Cadastro de um Usuário</param>
+            <returns> Objeto Recém-criado</returns>
+            <response code="201">Objeto Criado com Sucesso</response>
+            <response code="400">Dados Inválidos</response>
+        </member>
+        <member name="M:DevFitness.API.Controllers.UsersController.Put(System.Int32,DevFitness.API.Models.InputModels.UpdateUserInputModel)">
+            <summary>
+                Atualizar um Usuário
+            </summary>
+            <param name="id"> - Identificador do Usuário</param>
+            <param name="inputModel"> - Objeto com Dados para Atualizar um Usuário</param>
+            <returns> Objeto Atualizado</returns>
+            <response code="204">Objeto Atualizado com Sucesso</response>
+            <response code="404">Usuário não Encontrado</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HzFujGoYPF4isDOnpBu2gxTP3cXZu0GoeMmwePgzGNc=",
+  "Source": "DevFitness.API",
+  "BasePath": "_content/DevFitness.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

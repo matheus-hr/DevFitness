@@ -39,7 +39,7 @@ namespace DevFitness.API.Persistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -68,7 +68,7 @@ namespace DevFitness.API.Persistence.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("FullName")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<decimal>("Height")
                         .HasColumnType("decimal(18,2)");
