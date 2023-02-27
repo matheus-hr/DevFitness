@@ -17,12 +17,13 @@ namespace DevFitness.API.Persistence
         {
             modelBuilder.Entity<User>(e =>
             {
-                e.HasKey(u => u.Id);
+                e.HasKey(u => u.Id).HasAnnotation("Sqlite:Autoincrement", "Autoincrement"); ;
 
                 e.HasMany(u => u.Meals)
                     .WithOne()
                     .HasForeignKey(m => m.UserId)
-                    .OnDelete(DeleteBehavior.Restrict);
+                    .OnDelete(DeleteBehavior.Restrict)
+                    .HasAnnotation("Sqlite:Autoincrement", "Autoincrement"); 
             });
 
             modelBuilder.Entity<Meal>(e =>
