@@ -32,6 +32,12 @@ namespace DevFitness.API
 
             if (connectionString.Contains("Data Source"))
             {
+                if (connectionString.Contains("DiretorioRaizDoProjeto"))
+                {
+                    string diretorioArquivoDb = Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()));
+                    connectionString = connectionString.Replace("C:\\DiretorioRaizDoProjeto", diretorioArquivoDb);
+                }
+
                 services.AddDbContext<DevFitnessDbContext>(options => options.UseSqlite(connectionString));
             }
             else

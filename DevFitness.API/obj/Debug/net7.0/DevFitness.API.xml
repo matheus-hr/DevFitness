@@ -91,16 +91,16 @@
             <response code="204">Objeto Atualizado com Sucesso</response>
             <response code="404">Usuário não Encontrado</response>
         </member>
-        <member name="T:DevFitness.API.Migrations.initial">
+        <member name="T:DevFitness.API.Persistence.Migrations.Initial">
             <inheritdoc />
         </member>
-        <member name="M:DevFitness.API.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:DevFitness.API.Persistence.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:DevFitness.API.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:DevFitness.API.Persistence.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:DevFitness.API.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:DevFitness.API.Persistence.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>
