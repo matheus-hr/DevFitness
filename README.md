@@ -48,7 +48,7 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 
 ## Visual studio Code
 1. Instale a extensão C# no Visual studio Code
-2. Execute o comando <b>dotnet run</b> na pasta DevFitness.API
+2. Execute o comando <b>dotnet run</b> na pasta <b>DevFitness.API/b>
 
 <br/>
 
