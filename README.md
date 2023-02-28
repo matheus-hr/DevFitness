@@ -44,11 +44,14 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 
 ## Visual studio 2022
 1. Abra o projeto com o Visual studio 2022
-2. Clique o botão de "play" ou aperte o botão F5 no teclado
+2. Dentro do projeto, no arquivo <i><b>appsettings.json</b></i> altere a string de conexão, apontando para a pasta que contem o arquivo <i><b>DevFitness.db</b></i>
+3. Clique o botão de "play" ou aperte o botão F5 no teclado
 
 ## Visual studio Code
 1. Instale a extensão C# no Visual studio Code
-2. Execute o comando <b>dotnet run</b> na pasta <b>DevFitness.API</b>
+2. Execute o comando <i><b>dotnet tool install --global dotnet-ef</b></i> no terminal
+3. Dentro do projeto, no arquivo <i><b>appsettings.json</b></i> altere a string de conexão, apontando para a pasta que contem o arquivo <i><b>DevFitness.db</b></i>
+4. Execute o comando <i><b>dotnet run</b></i> na pasta <i><b>DevFitness.API</b></i>
 
 <br/>
 
