@@ -8,6 +8,10 @@ Bootcamp realizado pelo Luiz Felipe, onde ele demonstra desde o básico até o a
 
 ![image](https://user-images.githubusercontent.com/78974230/221893913-2cfae96c-2633-429a-b9d4-117cd4fedb4a.png)
 
+# 🖼️Fotos do projeto
+
+![foto 1](https://user-images.githubusercontent.com/78974230/124639105-22fb7c00-de62-11eb-9630-9f1ca3960946.png)
+
 # 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -34,8 +38,6 @@ Desenvolvida uma API REST completa de gerenciamento de refeições e informaçõ
 * Cadastro e atualização de Usuário
 * Geração de dados para relatório de balanço energético
 
-<br/>
-
 # ⚙️ Como utilizar este projeto?
 1. Faça o download do repositório
 2. Utilize o Visual studio 2022 ou Visual studio code
@@ -59,14 +61,8 @@ Com isso a aplicação web ira abrir em seu navegador.
   
 <br/>
 
-# 🖼️Fotos
-
-![foto 1](https://user-images.githubusercontent.com/78974230/124639105-22fb7c00-de62-11eb-9630-9f1ca3960946.png)
-
-<br/>
-
 # 👨‍💻Desenvolvedor
-Desenvolvido por [Matheus Henrique Rodrigues](https://www.linkedin.com/in/matheus-henrique-030320158/)
+Desenvolvido por [Matheus Henrique Rodrigues](https://www.linkedin.com/in/matheus-hr)
 
 <hr />
 <h6 align="center"> Made With 💖 by Matheus</h6>
