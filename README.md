@@ -1,12 +1,12 @@
 # Jornada .Net Direto ao Ponto - DevFitness (Atualização para .Net 7)
 
 ![project_language](https://img.shields.io/badge/language-C%23-green)
-![server_backend](https://img.shields.io/badge/backend%2Fserver-.NET%20Core-blue)
-![web](https://img.shields.io/badge/web-API-blueviolet)
-
-Bootcamp realizado pelo Luiz Felipe, onde ele demonstra desde o básico até o avançado utilizando .Net 7 e Entity Framework.
+![server_backend](https://img.shields.io/badge/backend%2Fserver-.NET%207-blue)
+![webAPI](https://img.shields.io/badge/project-web%20API-blueviolet)
 
 ![image](https://user-images.githubusercontent.com/78974230/221893913-2cfae96c-2633-429a-b9d4-117cd4fedb4a.png)
+
+Bootcamp realizado pelo Luiz Felipe, onde ele demonstra desde o básico até o avançado utilizando .Net 7 e Entity Framework.
 
 # 🖼️Fotos do projeto
 
